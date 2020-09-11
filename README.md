@@ -33,9 +33,9 @@ This project was a challenge of Frontend Mentor website called "Profile card com
 ```
 git add -A
 git commit -m <tittle> <message>
-git push <remote> <branch>
-git subtree push --prefix <directory> <remote> gh-pages
-git push <remote> `git subtree split --prefix <directory> <branch>`:gh-pages --force
+git push origin main
+git subtree push --prefix src/ origin gh-pages
+git push origin `git subtree split --prefix src/ main`:gh-pages --force
 ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
