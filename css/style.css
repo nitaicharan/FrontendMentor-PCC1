@@ -1,0 +1,25 @@
+:root {
+  --mobile-screen: 37.5rem;
+  --desktop-screen: 144rem;
+  --primary-light-cyan: hsl(185, 75%, 39%);
+  --dark-blue-color: hsl(229, 23%, 23%);
+  --light-blue-color: hsl(227, 10%, 46%);
+  --dark-grey-color: hsl(0, 0%, 59%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-size: 1.8rem; /*(name and stats) */
+  font-family: "Kumbh Sans", sans-serif;
+}
